@@ -1,0 +1,28 @@
+{
+  "short_name": "FBV",
+  "name": "Firebase - vondal.dev",
+  "icons": [
+    {
+      "src": "resources/favicon.ico",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "resources/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "resources/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "resources/apple-touch-icon.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
