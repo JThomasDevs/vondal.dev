@@ -1,8 +1,13 @@
 import HomeButton  from "../components/HomeButton";
 import BusinessContact from "../components/BusinessContact";
+import Helmet from "react-helmet";
 
 export default function PythonPage() {
     return (
+        <>
+            <Helmet>
+                <title>{ '{ Python }' }</title>
+            </Helmet>
         <div className="bg-black font-mono text-center flex-col items-center justify-center scale-100">
             <h1 className="text-python text-header-text font-semibold pt-6 pb-2">
                 {'{'}&nbsp;<a href="https://www.python.org" target="_blank" rel="noreferrer" className="hover:underline">Python</a>&nbsp;{'}'}
@@ -25,5 +30,6 @@ export default function PythonPage() {
             </p>
             <BusinessContact />
         </div>
+        </>
     );
 }

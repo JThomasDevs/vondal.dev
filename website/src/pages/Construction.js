@@ -1,10 +1,14 @@
 import BusinessContact from "../components/BusinessContact";
 import HomeButton from "../components/HomeButton";
+import Helmet from "react-helmet";
 
 
 function Construction({ header }) {
     return (
         <>
+            <Helmet>
+                <title>{ '{ Construction }' }</title>
+            </Helmet>
             { header }
             <HomeButton />
             <div className="bg-black font-mono text-center flex-col items-center justify-center">
