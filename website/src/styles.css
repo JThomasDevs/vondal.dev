@@ -10,3 +10,9 @@ body {
     margin: 0;
     padding-top: 20px;
 }
+
+.body-text {
+    min-width: 280px;
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
