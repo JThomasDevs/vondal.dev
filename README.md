@@ -10,4 +10,4 @@ React components are all contained in the `src` directory and are divided into `
 
 Page routing is handled by `react-router-dom`.
 
-Styling done with `[TailwindCSS](https://tailwindcss.com/)`.
+Styling done with [`TailwindCSS`](https://tailwindcss.com/).
