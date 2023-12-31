@@ -4,7 +4,7 @@
 
 Hosting and request routing via Firebase.
 
-The `website` directory is a React app that contains all source code for vondal.dev.
+The `website` directory is a React app that contains all source code for [vondal.dev](https://vondal.dev).
 
 React components are all contained in the `src` directory and are divided into `pages` and `components`.
 
