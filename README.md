@@ -1,6 +1,6 @@
 # vondal.dev
 
-##My website
+## My website
 
 Hosting and request routing via Firebase.
 
