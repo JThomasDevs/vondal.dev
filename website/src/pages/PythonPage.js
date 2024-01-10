@@ -13,7 +13,7 @@ export default function PythonPage() {
                 {'{'}&nbsp;<a href="https://www.python.org" target="_blank" rel="noreferrer" className="hover:underline">Python</a>&nbsp;{'}'}
             </h1>
             <HomeButton />
-            <p className="text-content-text tracking-tighter leading-6 flex-col text-center body-text pt-8 pb-4">
+            <p className="text-content-text tracking-tighter leading-6 flex-col text-left body-text pt-8 pb-4">
                 <span className="text-python">Python</span> is the first programming language I learned and is the language that I have worked with the most.
                 <br />
                 <br />

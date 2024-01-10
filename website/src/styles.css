@@ -12,7 +12,16 @@ body {
 }
 
 .body-text {
-    min-width: 280px;
-    padding-left: 30vw;
-    padding-right: 30vw;
+    line-height: 1.6;
+    letter-spacing: -1px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 630px) {
+    .body-text {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
