@@ -5,15 +5,15 @@ import Helmet from "react-helmet";
 export default function PythonPage() {
     return (
         <>
-            <Helmet>
-                <title>{ '{ Python }' }</title>
-            </Helmet>
+        <Helmet>
+            <title>{ '{ Python }' }</title>
+        </Helmet>
         <div className="bg-black font-mono text-center flex-col items-center justify-center scale-100">
             <h1 className="text-python text-header-text font-semibold pt-6 pb-2">
                 {'{'}&nbsp;<a href="https://www.python.org" target="_blank" rel="noreferrer" className="hover:underline">Python</a>&nbsp;{'}'}
             </h1>
             <HomeButton />
-            <p className="text-content-text tracking-tighter leading-6 flex-col text-left body-text pt-8 pb-4">
+            <p className="text-content-text text-left body-text pt-8">
                 <span className="text-python">Python</span> is the first programming language I learned and is the language that I have worked with the most.
                 <br />
                 <br />
@@ -28,8 +28,8 @@ export default function PythonPage() {
                 <br />
                 Additionally, this project serves as a demonstration of my early GUI design style along with custom image buttons and a few other fun features that I added.
             </p>
-            <BusinessContact />
         </div>
+        <BusinessContact />
         </>
     );
 }

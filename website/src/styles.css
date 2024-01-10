@@ -12,6 +12,7 @@ body {
 }
 
 .body-text {
+    padding-bottom: 8vh;
     line-height: 1.6;
     letter-spacing: -1px;
     max-width: 600px;

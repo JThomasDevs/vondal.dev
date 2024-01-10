@@ -13,7 +13,7 @@ export default function HomePage() {
         }, 50); // Update every 50ms
 
         return () => clearInterval(interval);
-    }, []);
+    });
 
     function calculateAge() {
         const currentDate = new Date();
@@ -23,6 +23,7 @@ export default function HomePage() {
     }
 
     return (
+        <>
         <div className="bg-black font-mono text-center flex-col items-center justify-center scale-100">
             <h1 className="text-header-text font-semibold pt-8 pb-2">
                 {'{ Vondal }'}
@@ -38,8 +39,8 @@ export default function HomePage() {
                     Explore my <a href="https://github.com/JThomasDevs" target="_blank" rel="noreferrer" className="text-github hover:underline">GitHub</a> to see examples of my work in <a href="/python" target="_self" className="text-python hover:underline hover:animate-pulse">Python</a>, <a href="/cpp" target="_self" className="text-cpp hover:underline hover:animate-pulse">C++</a>, <a href="/rust" target="_self" className="text-rust hover:underline hover:animate-pulse">Rust</a>, and <a href="/java" target="_self" className="text-java hover:underline hover:animate-pulse">Java</a>.
                 </div>
             </p>
-            <br/>
-            <BusinessContact />
         </div>
+        <BusinessContact />
+        </>
     );
 }
