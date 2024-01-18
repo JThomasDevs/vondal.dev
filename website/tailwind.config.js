@@ -12,6 +12,9 @@ module.exports = {
               '25vw': '25vw',
               '10vw': '10vw',
           },
+          inset: {
+            '2.5': '10px',
+          },
           colors: {
               github: '#6e5494',
               portfolio: '#d28001',

@@ -5,9 +5,11 @@ const PaddingListener = () => {
         const handleResize = () => {
             const contactElement = document.getElementById('contact');
             const contactHeight = contactElement.offsetHeight;
-            const bodyTextElements = document.querySelector('.body-text');
+            const bodyTextElements = document.querySelectorAll('.body-text');
 
-            bodyTextElements.style.paddingBottom = contactHeight + 'px';
+            bodyTextElements.forEach((bodyTextElement) => {
+                bodyTextElement.style.paddingBottom = contactHeight+'px';
+            });
         };
 
         handleResize();

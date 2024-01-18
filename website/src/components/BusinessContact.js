@@ -6,19 +6,14 @@ export default function BusinessContact() {
     useEffect(() => {
         const handleScroll = () => {
             const scrollElements = document.querySelectorAll('.scroll');
-            const contactElement = document.getElementById('contact');
             scrollElements.forEach((scrollElement) => {
-                if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight-10 || window.innerWidth < 523) {
+                if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight-5) {
                     /*
-                    * -10 is to account for the pixels of space before the BusinessContact component begins to cover the body text.
-                    *
-                    * 523px is the width at which the ScrollDown component began to distort.
+                    * -5 is to account for the pixels of space before the BusinessContact component begins to cover any body text.
                     */
                     scrollElement.classList.add('hide-scroll');
-                    contactElement.classList.remove('space-x-44')
                 } else {
                     scrollElement.classList.remove('hide-scroll');
-                    contactElement.classList.add('space-x-44')
                 }
             });
         };
@@ -37,8 +32,32 @@ export default function BusinessContact() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     useEffect(() => {
-        const handleResize = () => setWindowWidth(window.innerWidth);
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+
+            const contactElement = document.getElementById('contact');
+            if (window.innerWidth < 650) {
+                contactElement.classList.remove('space-x-44');
+                contactElement.classList.add('space-x-28');
+            } else {
+                contactElement.classList.remove('space-x-28');
+                contactElement.classList.add('space-x-44');
+            }
+
+            const scrollElements = document.querySelectorAll('.scroll');
+            scrollElements.forEach((scrollElement) => {
+                if (window.innerWidth < 650) {
+                    scrollElement.classList.add('top-2.5');
+                } else {
+                    scrollElement.classList.remove('top-2.5');
+                }
+            });
+        };
+
+        handleResize();
+
         window.addEventListener('resize', handleResize);
+
         return () => window.removeEventListener('resize', handleResize);
     });
 
@@ -46,9 +65,8 @@ export default function BusinessContact() {
         <div className="flex bg-black inset-x-0 text-center justify-center text-sm fixed bottom-0 z-50 pb-3 pt-3 space-x-44" id="contact">
         <ScrollDown />
         <div>
-            { /* 607px is the width at which the text formatting for this element began to look wonky */}
             {
-            windowWidth > 607 ? 
+            windowWidth > 650 ? 
             <>Business Inquiry? <a href="mailto:contact@vondal.dev" className="text-link hover:underline">Contact Me</a></> :
             <>Business Inquiry?<br />
             <a href="mailto:contact@vondal.dev" className="text-link hover:underline">Contact Me</a></>
