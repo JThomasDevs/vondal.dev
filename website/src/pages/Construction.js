@@ -11,12 +11,12 @@ function Construction({ header }) {
             </Helmet>
             { header }
             <HomeButton />
-            <div className="bg-black font-mono text-center flex-col items-center justify-center">
-                <p className="text-content-text tracking-tighter leading-6 flex-col text-center body-text pt-4">
+            <div className="bg-black font-mono">
+                <p className="text-content-text text-center body-text pt-4">
                     This Page is Under Construction
                 </p>
-                <BusinessContact />
             </div>
+            <BusinessContact />
         </>
     );
 }

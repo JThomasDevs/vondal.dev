@@ -16,18 +16,10 @@ export default function Routing() {
                 <Route path="/" element={<HomePage />} />
                 { /* Python blog page */ }
                 <Route path="/python" element={<PythonPage />}/>
-                { /* C++ blog page */ }
-                <Route path="/cpp" element={<Construction header={
-                    <h1 className="text-cpp text-header-text font-semibold flex justify-center pt-6">{'{'}&nbsp;<a href="https://cplusplus.com" target="_blank" rel="noreferrer" className="hover:underline">C++</a>&nbsp;{'}'}</h1>
-                } /> } />
-                { /* Rust blog page */ }
-                <Route path="/rust" element={<Construction header={
-                    <h1 className="text-rust text-header-text font-semibold flex justify-center pt-6">{'{'}&nbsp;<a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer" className="hover:underline">Rust</a>&nbsp;{'}'}</h1>
-                } />} />
-                { /* Java blog page */ }
-                <Route path="/java" element={<Construction header={
-                    <h1 className="text-java text-header-text font-semibold flex justify-center pt-6">{'{'}&nbsp;<a href="https://dev.java/" target="_blank" rel="noreferrer" className="hover:underline">Java</a>&nbsp;{'}'}</h1>
-                } />} />
+                { /* Other languages blog page */ }
+                <Route path="/other" element={<Construction header={
+                    <h1 className="text-other text-header-text font-semibold text-center pt-6 pb-2">{'{'}&nbsp;Other&nbsp;{'}'}</h1>
+                }/>} />
             </Routes>
         </Router>
     );

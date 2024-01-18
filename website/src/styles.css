@@ -2,6 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+html {
+	font-size: 16px;
+}
+
 body {
     background-color: black;
     font-family: 'Inconsolata', monospace;
@@ -12,7 +16,6 @@ body {
 }
 
 .body-text {
-    padding-bottom: 8vh;
     line-height: 1.6;
     letter-spacing: -1px;
     max-width: 600px;
@@ -25,4 +28,68 @@ body {
         padding-left: 5vw;
         padding-right: 5vw;
     }
+}
+
+.scroll {
+	width: 20px;
+	height: 20px;
+	border: 2px solid white;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+}
+
+.scroll::before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 5.1px;
+	width: 6px;
+	height: 6px;
+	border-left: 2px solid white;
+  	border-bottom: 2px solid white;
+	transform: rotate(-45deg);
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(7px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+.hide-scroll {
+	border: 2px solid transparent;
+    animation: none;
+    -webkit-animation: none;
+}
+
+.hide-scroll::before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 5.1px;
+	width: 6px;
+	height: 6px;
+	border-left: 2px solid transparent;
+  	border-bottom: 2px solid transparent;
+	transform: rotate(-45deg);
 }

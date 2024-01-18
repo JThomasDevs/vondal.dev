@@ -14,6 +14,7 @@ export default function HomePage() {
 
         return () => clearInterval(interval);
     });
+    // I chose 9 decimal places and 50ms update time because that is what is used on https://ottomated.net for the age counter and I liked the way it looked.
 
     function calculateAge() {
         const currentDate = new Date();
@@ -24,19 +25,19 @@ export default function HomePage() {
 
     return (
         <>
-        <div className="bg-black font-mono text-center flex-col items-center justify-center scale-100">
+        <div className="bg-black font-mono text-center flex-col">
             <h1 className="text-header-text font-semibold pt-8 pb-2">
                 {'{ Vondal }'}
             </h1>
-            <h2 className="text-content-text tracking-tighter leading-6 flex-col text-left body-text pt-20 pb-8">
-                I am a {age} year old full stack software engineer currently earning my degree in CS.
+            <h2 className="text-content-text text-left body-text pt-20">
+                I am a {age} year old software engineer currently earning my degree in CS.
             </h2>
-            <p className="text-content-text tracking-tighter leading-6 flex-col text-left body-text pb-4">
+            <p className="text-content-text text-left body-text">
                 <div className="pb-6">
-                    This website was created using <a target="_blank" rel="noreferrer" href="https://react.dev/" className="text-react hover:underline">React</a>, <a target="_blank" rel="noreferrer" href="https://tailwindcss.com/" className="text-tailwind hover:underline">TailwindCSS</a>, and <a target="_blank" rel="noreferrer" href="https://firebase.google.com/" className="text-firebase hover:underline">Firebase</a>.
+                    I am currently learning about <a href="https://developer.android.com" target="_blank" rel="noreferrer" className="text-android hover:underline">Android App Development</a> and <a href="https://en.wikipedia.org/wiki/Test_automation" target="_blank" rel="noreferrer" className="text-link hover:underline">Software Test Automation</a>.
                 </div>
                 <div>
-                    Explore my <a href="https://github.com/JThomasDevs" target="_blank" rel="noreferrer" className="text-github hover:underline">GitHub</a> to see examples of my work in <a href="/python" target="_self" className="text-python hover:underline hover:animate-pulse">Python</a>, <a href="/cpp" target="_self" className="text-cpp hover:underline hover:animate-pulse">C++</a>, <a href="/rust" target="_self" className="text-rust hover:underline hover:animate-pulse">Rust</a>, and <a href="/java" target="_self" className="text-java hover:underline hover:animate-pulse">Java</a>.
+                    Explore my <a href="https://github.com/JThomasDevs" target="_blank" rel="noreferrer" className="text-github hover:underline">GitHub</a> to see examples of my work in <a href="/python" target="_self" className="text-python hover:underline hover:animate-pulse">Python</a> and <a href='/other' target='_self' className="text-other hover:underline hover:animate-pulse">other</a> languages.
                 </div>
             </p>
         </div>
