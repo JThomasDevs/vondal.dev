@@ -7,6 +7,25 @@ html {
 }
 
 body {
+	scrollbar-width: thin;
+	scrollbar-color: white black;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+::-webkit-scrollbar-thumb {
+	background: white;
+	border-radius: 5px;
+	border-color: 2px solid white;
+}
+
+body {
     background-color: black;
     font-family: 'Inconsolata', monospace;
     color: white;
