@@ -38,9 +38,9 @@ export default function BusinessContact() {
             const contactElement = document.getElementById('contact');
             if (window.innerWidth < 650) {
                 contactElement.classList.remove('space-x-44');
-                contactElement.classList.add('space-x-28');
+                contactElement.classList.add('space-x-20');
             } else {
-                contactElement.classList.remove('space-x-28');
+                contactElement.classList.remove('space-x-20');
                 contactElement.classList.add('space-x-44');
             }
 
