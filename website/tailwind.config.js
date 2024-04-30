@@ -17,7 +17,6 @@ module.exports = {
           },
           colors: {
               github: '#6e5494',
-              portfolio: '#d28001',
               python: '#3776ab',
               cpp: '#004488',
               rust: '#ce422b',

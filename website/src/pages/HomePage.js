@@ -34,10 +34,10 @@ export default function HomePage() {
             </h2>
             <p className="text-content-text text-left body-text">
                 <div className="pb-6">
-                    I am currently learning about <a href="https://en.wikipedia.org/wiki/User_interface_design" target="_blank" rel="noreferrer" className="text-rust hover:underline">UI</a>/<a href="https://en.wikipedia.org/wiki/User_experience_design" target="_blank" rel="noreferrer" className="text-htmlcssjs hover:underline">UX</a> Design and <a href="https://en.wikipedia.org/wiki/Computer_graphics_(computer_science)" target="_blank" rel="noreferrer" className="text-selenium hover:underline">Computer Graphics and Visualization</a>.
+                    I am currently learning about <a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model" target="_blank" rel="external noreferrer" className="text-htmlcssjs hover:underline">Client-Server</a> Development and <a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" rel="external noreferrer" className="text-rust hover:underline">Embedded Systems</a> programming.
                 </div>
                 <div>
-                    Explore my <a href="https://github.com/JThomasDevs" target="_blank" rel="noreferrer" className="text-github hover:underline">GitHub</a> to see examples of my work in <a href="/python" target="_self" className="text-python hover:underline hover:animate-pulse">Python</a> and <a href='/other' target='_self' className="text-other hover:underline hover:animate-pulse">other</a> languages.
+                    Explore my <a href="https://github.com/JThomasDevs" target="_blank" rel="external noreferrer" className="text-github hover:underline">GitHub</a> to see examples of my work in <a href="/python" target="_self" className="text-python hover:underline hover:animate-pulse">Python</a> and <a href='/other' target='_self' rel="me" className="text-other hover:underline hover:animate-pulse">other</a> languages.
                 </div>
             </p>
         </div>
