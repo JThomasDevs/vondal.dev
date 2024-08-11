@@ -23,7 +23,7 @@ export default function PythonPage() {
                 The project that I am most proud of is my <a href="https://github.com/JThomasDevs/Tkinter-Interactive-GUI-Demo" target="_blank" rel="external noreferrer" className= "text-python hover:underline">Dynamic GUI</a> built with <a href="https://docs.python.org/3/library/tkinter.html" target="_blank" rel="external noreferrer" className="text-tkinter hover:underline">Tkinter</a>.
                 <br />
                 <br />
-                This project was a great learning experience for me as it provided me with experience in creating a an intuitive and interactive user interface. Additionally, this project presented me with several challenges that I had to overcome in order to create the desired functionality. 
+                This project was a great learning experience for me as it provided me with exposure to creating an intuitive and interactive user interface. Additionally, this project presented me with several challenges that I had to overcome in order to create the desired functionality. 
                 <br />
                 <br />
                 In the process of overcoming these challenges, I learned a lot about object-oriented programming, uninque coding patterns, unconventional use of data structures, and the importance of using function templates to create reusable code.
