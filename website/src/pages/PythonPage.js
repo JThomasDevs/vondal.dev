@@ -23,10 +23,10 @@ export default function PythonPage() {
                 The project that I am most proud of is my <a href="https://github.com/JThomasDevs/Tkinter-Interactive-GUI-Demo" target="_blank" rel="external noreferrer" className= "text-python hover:underline">Dynamic GUI</a> built with <a href="https://docs.python.org/3/library/tkinter.html" target="_blank" rel="external noreferrer" className="text-tkinter hover:underline">Tkinter</a>.
                 <br />
                 <br />
-                Tkinter does not have built-in controls to dynamically resize GUI elements as the window resizes. I wrote a function template that can be applied to any GUI element to dynamically resize the element as the window resizes. Element-to-window and element-to-element ratios are maintained all the way down to the minimum window size.
+                This project was a great learning experience for me as it provided me with exposure to creating an intuitive and interactive user interface. Additionally, this project presented me with several challenges that I had to overcome in order to create the desired functionality. 
                 <br />
                 <br />
-                Additionally, this project serves as a demonstration of my early GUI design style along with custom image buttons and a few other fun features that I added.
+                In the process of overcoming these challenges, I learned a lot about object-oriented programming, uninque coding patterns, unconventional use of data structures, and the importance of using function templates to create reusable code.
             </p>
         </div>
         <BusinessContact />
