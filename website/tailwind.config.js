@@ -27,6 +27,7 @@ module.exports = {
               other: '#ffcb2b',
               android: '#a4c639',
               link: '#808080',
+              mustard: '#e1ad01',
           },
       },
       variants: {

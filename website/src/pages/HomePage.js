@@ -34,7 +34,7 @@ export default function HomePage() {
             </h2>
             <p className="text-content-text text-left body-text">
                 <div className="pb-6">
-                    I am currently taking courses on <a href="https://en.wikipedia.org/wiki/Secure_coding" target="_blank" rel="external noreferrer" className="text-rust hover:underline">Secure Coding</a> and <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="external noreferrer" className="text-selenium hover:underline">Machine Learning</a>.
+                    I am currently taking courses on <a href="https://en.wikipedia.org/wiki/Reverse_engineering#Software" target="_blank" rel="external noreferrer" className="text-mustard hover:underline">Reverse Engineering</a> and <a href="https://www.mongodb.com/resources/basics/full-stack-development" target="_blank" rel="external noreferrer" className="text-android hover:underline">Full Stack Development</a>.
                 </div>
                 <div>
                     Explore my <a href="https://github.com/JThomasDevs" target="_blank" rel="external noreferrer" className="text-github hover:underline">GitHub</a> to see examples of my work in <a href="/python" target="_self" className="text-python hover:underline hover:animate-pulse">Python</a> and <a href='/other' target='_self' rel="me" className="text-other hover:underline hover:animate-pulse">other</a> languages.
