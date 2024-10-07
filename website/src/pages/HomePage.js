@@ -30,11 +30,12 @@ export default function HomePage() {
                 {'{ Vondal }'}
             </h1>
             <h2 className="text-content-text text-left body-text pt-20">
-                I am a {age} year old software engineer currently earning my degree in CS.
+                I am a {age} year old software engineer pursuing my degree in Computer Science.
             </h2>
             <p className="text-content-text text-left body-text">
                 <div className="pb-6">
-                    I am currently taking courses on <a href="https://en.wikipedia.org/wiki/Reverse_engineering#Software" target="_blank" rel="external noreferrer" className="text-mustard hover:underline">Reverse Engineering</a> and <a href="https://www.mongodb.com/resources/basics/full-stack-development" target="_blank" rel="external noreferrer" className="text-android hover:underline">Full Stack Development</a>.
+                    I am currently withdrawn from university after the sudden passing of my mother. I plan to continue my education in the new year and am taking care of myself and my family in the mean time.
+                    My mother was kind, intelligent, driven, and an endless source of love and support. I am grateful that I got to be her son.
                 </div>
                 <div>
                     Explore my <a href="https://github.com/JThomasDevs" target="_blank" rel="external noreferrer" className="text-github hover:underline">GitHub</a> to see examples of my work in <a href="/python" target="_self" className="text-python hover:underline hover:animate-pulse">Python</a> and <a href='/other' target='_self' rel="me" className="text-other hover:underline hover:animate-pulse">other</a> languages.
