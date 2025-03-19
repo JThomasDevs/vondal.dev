@@ -34,8 +34,14 @@ export default function HomePage() {
             </h2>
             <p className="text-content-text text-left body-text">
                 <div className="pb-6">
-                    I am currently withdrawn from university after the sudden passing of my mother. I plan to continue my education in the new year and am taking care of myself and my family in the mean time.
-                    My mother was kind, intelligent, driven, and an endless source of love and support. I am grateful that I got to be her son.
+                    I am currently learning about <a href="https://www.geeksforgeeks.org/software-engineering-reverse-engineering/" target="_blank" rel="external noreferrer" className="text-green-800 hover:underline">Reverse Engineering</a>, <a href="https://www.geeksforgeeks.org/what-is-assembly-language/" target="_blank" rel="external noreferrer" className="hover:underline text-orange-800">Assembly languages</a>, and <a href="https://www.mongodb.com/resources/basics/full-stack-development" target="_blank" rel="external noreferrer" className="hover:underline text-pink-800">full-stack web development</a>.
+                    <p className="pt-6">
+                        This will be my second to last term before finishing my degree.
+                    </p>
+                </div>
+                <div className="pb-6">
+                    I recently returned to university after some time away following the sudden passing of my mother.
+                    My mother was kind, intelligent, driven, and an endless source of love and support. I am grateful that I got to be her son and for all the wisdom she gave me.
                 </div>
                 <div>
                     Explore my <a href="https://github.com/JThomasDevs" target="_blank" rel="external noreferrer" className="text-github hover:underline">GitHub</a> to see examples of my work in <a href="/python" target="_self" className="text-python hover:underline hover:animate-pulse">Python</a> and <a href='/other' target='_self' rel="me" className="text-other hover:underline hover:animate-pulse">other</a> languages.
